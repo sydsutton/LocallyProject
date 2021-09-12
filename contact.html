@@ -24,103 +24,109 @@
 
 <!-- Navbar -->
 
-    <nav class="navbar navbar-dark bg-transparent navbar-expand-lg mb-3">
-        <div class="container-fluid">
-            <a href="index.html" class="navbar-brand">
-                <img src="img/brand.png" alt="Locally logo" width="100px"/>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+<nav class="navbar navbar-dark bg-transparent navbar-expand-lg mb-3">
+    <div class="container-fluid ">
+        <a href="#" class="navbar-brand">
+            <img src="img/brand.png" alt="Locally logo" width="100px"/>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="index.html">home</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="savedartists.html">saved artists</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link" href="aboutus.html">about us</a>
-                    </li>
-                    <li class="nav-item px-3">
-                        <a class="nav-link active" href="#">contact</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <button class="mx-3 my-2 px-2 py-1 btn btn-outline-info small bg-transparent font-weight-bold"
-                    style="width:5.5rem;" data-toggle="modal" data-target="#loginModal" id="firstLoginBtn">login</button>
-                </ul>
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="index.html">home</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="savedartists.html">saved artists</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link" href="aboutus.html">about us</a>
+                </li>
+                <li class="nav-item px-3">
+                    <a class="nav-link active" href="#">contact</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav">
+                <button class="mx-3 my-2 px-2 py-1 btn btn-outline-light small font-weight-bold"
+                style="width:5.5rem;" data-toggle="modal" data-target="#loginModal" id="firstLoginBtn">login</button>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Modal -->
+
+<div class="modal fade md-6" id="loginModal">
+    <div class="modal-dialog">
+        <div class="modal-content bg-light text-dark font-weight-bold">
+            <div class="modal-header">
+                <h5 class="modal-title">nice to see you again!</h5>
+                <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form class="form pb-4">
+                    <div class="form-group">
+                        <label for="email" class="form-control-label small">email</label>
+                        <input type="email" id="email" class="form-control"/>
+                    </div>
+                    <div class="form-group">
+                        <label for="password" class="form-control-label small">password</label>
+                        <input type="password" id="password" class="form-control"/>
+                    </div>
+                    <div>
+                        <p class="small text-muted">Don't have an account?</p>
+                        <a href="#" class="text-info small" data-dismiss="modal" data-target="#loginModal">CREATE AN ACCOUNT</a>
+                    </div>
+                </form>
+                <div class="modal-footer">
+                    <div class="mx-auto">
+                        <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#loginModal" id="secondloginBtn">login</button>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
+</div>
 
-    <!-- Modal -->
-
-    <div class="modal fade md-6" id="loginModal">
-        <div class="modal-dialog">
-            <div class="modal-content bg-light text-dark font-weight-bold">
-                <div class="modal-header">
-                    <h5 class="modal-title">nice to see you again!</h5>
-                    <button type="button" class="close close-btn" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form class="form pb-4">
-                        <div class="form-group">
-                            <label for="email" class="form-control-label small">email</label>
-                            <input type="password" id="email" class="form-control"/>
-                        </div>
-                        <div class="form-group">
-                            <label for="password" class="form-control-label small">password</label>
-                            <input type="email" id="password" class="form-control"/>
-                        </div>
-                        <div>
-                            <p class="small text-muted">Don't have an account?</p>
-                            <a href="#" class="text-info small" data-dismiss="modal" data-target="#loginModal">CREATE AN ACCOUNT</a>
-                        </div>
-                    </form>
-                    <div class="modal-footer">
-                        <div class="mx-auto">
-                            <button type="submit" class="btn btn-info" data-toggle="modal" data-target="#loginModal" id="secondloginBtn">login</button>
-                        </div>
+    <!-- Main Card -->
+    <div class="container main-container">
+        <div class="row">
+            <div class="col-sm-12 col-md-9 col-lg-8 mx-auto">
+                <div class="container p-3 rounded" style="background: linear-gradient(to bottom left, rgba(0,0,0,.05), rgba(0,0,0,.5));">
+                    <h5 class="text-light text-center">Feel free to reach out to us about anything at all!</h5>
+                    <hr class="bg-info w-75"/>
+                    <div class="row">
+                        <form class="form form mx-auto text-light small w-75">
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="name" placeholder="Your name"/>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="email" id="email" placeholder="Your email"/>
+                            </div>
+                            <div class="form-group">
+                                <input class="form-control" type="text" id="artistName" placeholder="Your band/artist name (if applicable)"/>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" type="text" id="textArea" style="height: 10rem;" placeholder="What you're reaching out about"></textarea>
+                            </div>
+                            <button class="btn btn-outline-info mx-auto d-flex justify-content-center mt-4 mb-2" type="submit">submit inquiry</button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Main Card -->
-    <div class="container position-relative">
-        <h5 class="text-light mx-auto text-center">Feel free to reach out to us about anything at all!</h5>
-        <hr class="bg-info w-75"/>
-        <div class="row">
-            <form class="form col-sm-6 col-md-5 col-lg-4 form w-50 mx-auto text-light small">
-                <div class="form-group">
-                    <input class="form-control" type="text" id="name" placeholder="Your name"/>
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="email" id="email" placeholder="Your email"/>
-                </div>
-                <div class="form-group">
-                    <input class="form-control" type="text" id="artistName" placeholder="Your band/artist name (if applicable)"/>
-                </div>
-                <div class="form-group">
-                    <textarea class="form-control" type="text" id="textArea" style="height: 10rem;" placeholder="What you're reaching out about"></textarea>
-                </div>
-                <button class="btn btn-outline-primary mx-auto d-flex justify-content-center" type="submit">submit inquiry</button>
-            </form>
-        </div>
-    </div>
-
     <!-- Footer -->
-    <footer class="page-footer text-light position-absolute mt-5" style="background: rgba(0,0,0,.2); bottom: 0;">
+    <footer class="page-footer text-light mt-5 sticky-bottom" style="background: rgba(0,0,0,.2);">
         <div class="container">
             <div class="row">
-                <div class="col text-right my-auto py-3">
-                    <h5>follow us</h5>
+                <div class="col text-right my-auto">
+                    <h5 class="pt-2">follow us</h5>
                 </div>
                 <div class="col text-left my-auto py-3">
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>

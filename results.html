@@ -24,7 +24,7 @@
 
 <!-- Navbar -->
 
-    <nav class="navbar navbar-dark bg-transparent navbar-expand-lg mb-3">
+    <nav class="navbar navbar-dark bg-transparent navbar-expand-lg">
         <div class="container-fluid">
             <a href="index.html" class="navbar-brand">
                 <img src="img/brand.png" alt="Locally logo" width="100px"/>
@@ -49,7 +49,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav">
-                    <button class="mx-3 my-2 px-2 py-1 btn btn-outline-info small bg-transparent font-weight-bold"
+                    <button class="mx-3 my-2 px-2 py-1 btn btn-outline-light small font-weight-bold"
                     style="width:5.5rem;" data-toggle="modal" data-target="#loginModal" id="firstLoginBtn">login</button>
                 </ul>
             </div>
@@ -95,12 +95,12 @@
     <!-- Breadcrumbs-->
 
     <div class="container d-inline rounded">
-        <div class="row">
-            <div class="col-sm-6 p-0 mx-auto">
-                <nav aria-label="breadcrumb h-100" style="background: rgba(0,0,0,.2);">
-                    <ol class="breadcrumb  bg-transparent text-light w-50">
-                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Artists in your city</li>
+        <div class="row w-100 mx-auto">
+            <div class="col-sm-6 mx-auto">
+                <nav aria-label="breadcrumb h-100" style="background: linear-gradient(to bottom left, rgba(0,0,0,.05), rgba(0,0,0,.5));">
+                    <ol class="breadcrumb bg-dark">
+                    <li class="breadcrumb-item pl-3"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active text-light" aria-current="page">Artists in your city</li>
                     </ol>
                 </nav>
             </div>
@@ -108,7 +108,7 @@
     <div>
 
     <!-- Main Card -->
-    <div class="d-flex flex-wrap justify-content-center position-relative">
+    <div class="main-container d-flex flex-wrap justify-content-center">
         <a href="closeup.html" class="mx-3 hover-effect" >
             <div class="card text-center mx-auto bg-dark text-light my-4 p-1" style="width: 18rem;">
                 <img src="https://cdn.alivenetwork.com/media/045_22.04.15_alive_hipster.jpg" alt="band image" class="card-img-top"/>
@@ -177,11 +177,11 @@
     </div>
     
     <!-- Footer -->
-    <footer class="page-footer text-light position-absolute mt-5 b-0" style="background: rgba(0,0,0,.2);">
+    <footer class="text-light mt-5 position-absolute b-0 w-100" style="background: rgba(0,0,0,.2);">
         <div class="container">
             <div class="row">
                 <div class="col text-right my-auto py-3">
-                    <h5>follow us</h5>
+                    <h5 class="pt-2">follow us</h5>
                 </div>
                 <div class="col text-left my-auto py-3">
                     <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
