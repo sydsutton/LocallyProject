@@ -15,7 +15,7 @@ html {
 }
 
 
-.fa {
+footer .fa {
     color: aqua;
 }
 
@@ -83,4 +83,12 @@ footer {
 #zipInput {
     margin: 0 auto;
     max-width: 18rem;
+}
+
+#imgContainer img {
+    max-width: 15rem;
+}
+
+.modal-dialog img {
+    min-width: 50vw;
 }
