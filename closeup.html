@@ -39,7 +39,7 @@
                         <a class="nav-link" href="index.html">home</a>
                     </li>
                     <li class="nav-item px-3">
-                        <a class="nav-link" href="savedartists.html">saved artists</a>
+                        <a class="nav-link" href="savedshows.html">saved shows</a>
                     </li>
                     <li class="nav-item px-3">
                         <a class="nav-link" href="aboutus.html">about us</a>
@@ -58,8 +58,8 @@
 
     <!-- Modal -->
 
-    <div class="modal fade md-6" id="loginModal">
-        <div class="modal-dialog">
+    <div class="modal fade" id="loginModal">
+        <div class="modal-dialog shadow-lg">
             <div class="modal-content bg-light text-dark font-weight-bold">
                 <div class="modal-header">
                     <h5 class="modal-title">nice to see you again!</h5>
@@ -144,7 +144,7 @@
                 </div>
                 <div class="mt-5 text-center">
                     <h6 class="mb-4 text-light">Listen to on:</h6>
-                    <div class="button-group text-center d-flex justify-content-center">
+                    <div class="button-group text-center d-flex justify-content-center align-text-bottom">
                         <a class="btn btn-secondary mx-2 rounded-circle p-2" href="https://music.apple.com/us/browse"><i class="fa fa-2x fa-apple text-light"></i></a>
                         <a class="btn btn-primary mx-2 rounded-circle p-2" href="http://facebook.com/"><i class="fa fa-2x fa-facebook text-light"></i></a>
                         <a class="btn btn-info mx-2 rounded-circle p-2" href="http://bandcamp.com"><i class="fa fa-2x fa-bandcamp text-light"></i></a>
@@ -173,55 +173,59 @@
                 </ul>
                 <table class="table table-secondary table-sm small rounded">
                     <thead class="thead-dark rounded">
-                        <tr>
+                        <tr class="text-center">
                             <th scope="col">date</th>
                             <th scope="col">venue</th>
-                            <th scope="col">doors open</th>
                             <th scope="col">playing</th>
                             <th scope="col">cover</th>
                             <th scope="col">event link</th>
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th scope="row">10/ 12</th>
-                            <td>Cubby Bear</td>
-                            <td>@ 6:30</td>
-                            <td>@ 8:00</td>
-                            <td>free</td>
-                            <td><a href="#">here</a></td>
+                        <tr class="text-center">
+                            <th class="align-middle" scope="row">10/12</th>
+                            <td class="align-middle" >Cubby Bear
+                                <button class="btn badge badge-pill btn-outline-primary m-2">save show</button>
+                            </td>
+                            <td class="align-middle" >@ 8:00</td>
+                            <td class="align-middle" >free</td>
+                            <td class="align-middle" ><a href="#">here</a></td>
                         </tr>
-                        <tr>
-                            <th scope="row">10/ 24</th>
-                            <td>WC Social Club</td>
-                            <td>@ 7:00</td>
-                            <td>@ 9:30</td>
-                            <td>$10</td>
-                            <td><a href="#">here</a></td>
+                        <tr class="text-center">
+                            <th class="align-middle" scope="row">10/24</th>
+                            <td class="align-middle" >WC Social Club
+                                <button class="btn badge badge-pill btn-success m-2"><i class="fa fa-check"></i></button>
+                            </td>
+                            <td class="align-middle" >@ 9:30</td>
+                            <td class="align-middle" >$10</td>
+                            <td class="align-middle" ><a href="#">here</a></td>
                         </tr>
-                        <tr>
-                            <th scope="row">11/ 02</th>
-                            <td>Chicago Ampitheater</td>
-                            <td>@ 5:00</td>
-                            <td>@ 8:30</td>
-                            <td>$20</td>
-                            <td><a href="#">here</a></td>
+                        <tr class="text-center">
+                            <th class="align-middle" scope="row">11/02</th>
+                            <td class="align-middle" >Chicago Ampitheater
+                                <button class="btn badge badge-pill btn-outline-primary m-2">save show</button>
+                            </td>
+                            <td class="align-middle" >@ 8:30</td>
+                            <td class="align-middle" >$20</td>
+                            <td class="align-middle" ><a href="#">here</a></td>
                         </tr>
-                        <tr>
-                            <th scope="row">11/ 07</th>
-                            <td>Somewhere</td>
-                            <td>@ 6:00</td>
-                            <td>@ 8:30</td>
-                            <td>$5</td>
-                            <td><a href="#">here</a></td>
+                        <tr class="text-center">
+                            <th class="align-middle" scope="row">11/07</th>
+                            <td class="align-middle" >Somewhere
+                                <button class="btn badge badge-pill btn-outline-primary m-2">save show</button>
+                            </td>
+                            <td class="align-middle" >@ 8:30</td>
+                            <td class="align-middle" >$5</td>
+                            <td class="align-middle" ><a href="#">here</a></td>
                         </tr>
-                        <tr>
-                            <th scope="row">11/ 08</th>
-                            <td>Somewhere Else</td>
-                            <td>@ 7:00</td>
-                            <td>@ 9:30</td>
-                            <td>free</td>
-                            <td><a href="#">here</a></td>
+                        <tr class="text-center">
+                            <th class="align-middle"  scope="row">11/08</th>
+                            <td class="align-middle">Somewhere Else
+                                <button class="btn badge badge-pill btn-outline-primary m-2">save show</button>
+                            </td>
+                            <td class="align-middle" >@ 9:30</td>
+                            <td class="align-middle" >free</td>
+                            <td class="align-middle" ><a href="#">here</a></td>
                         </tr>
                     </tbody>
                 </table>
