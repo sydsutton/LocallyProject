@@ -98,6 +98,14 @@ footer .btn-social-icon {
     min-width: 50vw;
 }
 
+.navbar-brand {
+    z-index: 1;
+    mix-blend-mode: luminosity;
+    overflow: hidden;
+    -webkit-filter: contrast(1.25);
+    filter: contrast(1.25);
+}
+
 @media(min-width:480px) and (max-width: 767px) {
     .custom-class { 
         width: 100%; 
