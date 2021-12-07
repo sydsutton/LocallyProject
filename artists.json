@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Megadeath",
+        "numLikes": 156,
+        "genre": "Metal",
+        "location": "New York, New York",
+        "zipCode": "43908",
+        "bio": "We're a metal band that aims to literally melt your face with our rock!",
+        "imgs": {
+            "1": "https://rock-fest.com/wp-content/uploads/2017/12/Megadeth.jpg", 
+            "2": "https://www.gannett-cdn.com/presto/2019/06/18/PPHX/ee9deb81-4d8b-4641-b8fb-4b9dd3ba42f7-Megadeath.jpeg?width=660&height=440&fit=crop&format=pjpg&auto=webp",
+            "3": "http://images5.fanpop.com/image/photos/30400000/Megadeth-megadeth-30408291-594-396.jpg",
+            "4": "http://images5.fanpop.com/image/photos/29400000/Megadeth-megadeth-29405360-500-330.jpg"
+            }
+    }
+]
